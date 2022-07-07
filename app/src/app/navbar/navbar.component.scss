@@ -1,0 +1,28 @@
+.spacer {
+    flex: 1 1 auto;
+}
+button {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 2px solid white;
+    border-radius: 2px;
+    font-family:'Splash', cursive;
+    font-size: 15px;
+
+}
+button:hover {
+    background-color: black;
+    color: crimson;
+}
+.logo {
+    font-family: 'Splash', cursive;
+    font-size: 30px;
+}
+a {
+    font-size: 20px;
+}
+a:hover {
+    background-color: black;
+    color: pink;
+}

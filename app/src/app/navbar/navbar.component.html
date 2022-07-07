@@ -1,0 +1,17 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+<mat-toolbar color="primary">
+    <span class="logo"><mat-icon>cake</mat-icon>Home Cake</span>
+    <div class="spacer"></div>
+
+    <a mat-button routerLink="home">{{ 'navbar.home'| translate}}</a>
+    <a mat-button routerLink="about">{{ 'navbar.about us'| translate}}</a>
+    <a mat-button routerLink="contacts">{{ 'navbar.contacts'| translate}}</a>
+    <a mat-button routerLink="gallery">{{ 'navbar.gallery'| translate}}</a>
+    <a mat-raised-button color="warn" routerLink="signup">Sign Up</a>
+
+    <button (click)="useTranslation('en')">en</button>
+    <button  (click)="useTranslation('ro')">ro</button>
+    <button  (click)="useTranslation('ru')">ru</button>
+  </mat-toolbar>
